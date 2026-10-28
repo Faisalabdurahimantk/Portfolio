@@ -18,8 +18,9 @@
   --ink-soft: rgba(36, 35, 33, 0.68);
   --hairline: rgba(36, 35, 33, 0.16);
 
-  --serif: 'Cormorant Garamond', 'Cormorant', Georgia, 'Times New Roman', serif;
-  --sans: 'Montserrat', 'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --serif: 'Season Serif', 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --sans: 'Season Sans', 'Montserrat', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --mix: 'Season Mix', 'Montserrat', system-ui, sans-serif;
 
   --gutter: clamp(16px, 4vw, 56px);
   --max: 1520px;
@@ -124,8 +125,8 @@ p {
   margin: 0;
   font-family: var(--serif);
   font-weight: 300;
-  line-height: 0.94;
-  letter-spacing: -0.02em;
+  line-height: 0.98;
+  letter-spacing: -0.03em;
 }
 
 .display em,
@@ -163,7 +164,7 @@ p {
 /* Mixed-weight titling: light caps, a quiet italic, bold caps */
 .mixed {
   margin: 0;
-  font-family: var(--sans);
+  font-family: var(--mix);
   font-weight: 300;
   line-height: 1;
   letter-spacing: 0.005em;
@@ -692,7 +693,7 @@ p {
   margin-top: -1.1em;
   max-width: 14ch;
   font-family: var(--serif);
-  font-size: clamp(2.6rem, 6.2vw, 7rem);
+  font-size: clamp(2.3rem, 5.2vw, 6rem);
   font-weight: 300;
   line-height: 0.98;
   letter-spacing: -0.02em;
@@ -781,7 +782,7 @@ p {
 }
 
 .about__title {
-  font-size: clamp(2.8rem, 5.4vw, 6.2rem);
+  font-size: clamp(2.5rem, 4.4vw, 5.2rem);
 }
 
 .about__intro {
@@ -1349,9 +1350,9 @@ p {
   padding-inline: var(--gutter);
   text-align: center;
   font-family: var(--serif);
-  font-size: clamp(2.2rem, 5vw, 5.4rem);
+  font-size: clamp(2rem, 4.2vw, 4.6rem);
   font-weight: 300;
-  line-height: 1.02;
+  line-height: 1.04;
   letter-spacing: -0.015em;
   color: var(--cream);
   text-shadow: 0 6px 40px rgba(27, 29, 30, 0.45);
@@ -1442,7 +1443,7 @@ p {
 }
 
 .contact__title {
-  font-size: clamp(3rem, 6.8vw, 7.6rem);
+  font-size: clamp(2.6rem, 5.6vw, 6.4rem);
 }
 
 .contact__sub {

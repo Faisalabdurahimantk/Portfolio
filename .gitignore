@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Season trial fonts (Displaay) — licensed for personal/trial use only, never commit
+public/fonts/season/

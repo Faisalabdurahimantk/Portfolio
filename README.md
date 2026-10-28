@@ -28,6 +28,21 @@ npm run assets     # regenerate the sculpture SVGs in public/sculpture
 - `caseStudyUrl: null` turns a project link into "Request case study" (email).
 - `cover` replaces the generated sculptural artwork with a real project image.
 
+## Fonts (Season by Displaay)
+
+Typography uses **Season Mix** (titling), **Season Serif** (editorial lines)
+and **Season Sans** (UI/body), declared in `src/styles/fonts.css`.
+
+The font files are **not in this repository**: the trial licence allows
+personal/internal use only, so `public/fonts/season/` is git-ignored. To see
+them locally, copy the WOFF2 files from the Season download into
+`public/fonts/season/` (flat, e.g. `public/fonts/season/SeasonMix-TRIAL-Bold.woff2`).
+Without them the site falls back to Montserrat / Cormorant Garamond.
+
+Before deploying publicly, buy a Season web licence from Displaay, add the
+licensed WOFF2 files, update the file names in `fonts.css`, and remove the
+ignore rule.
+
 ## Structure
 
 ```
