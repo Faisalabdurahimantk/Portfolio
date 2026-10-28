@@ -18,9 +18,10 @@
   --ink-soft: rgba(36, 35, 33, 0.68);
   --hairline: rgba(36, 35, 33, 0.16);
 
-  --serif: 'Season Serif', 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
-  --sans: 'Season Sans', 'Montserrat', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --mix: 'Season Mix', 'Montserrat', system-ui, sans-serif;
+  /* Season Mix throughout; the fallbacks only show if the font files are absent. */
+  --mix: 'Season Mix', 'Montserrat', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --serif: 'Season Mix', 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --sans: var(--mix);
 
   --gutter: clamp(16px, 4vw, 56px);
   --max: 1520px;

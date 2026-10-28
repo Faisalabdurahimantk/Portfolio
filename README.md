@@ -30,12 +30,12 @@ npm run assets     # regenerate the sculpture SVGs in public/sculpture
 
 ## Fonts (Season by Displaay)
 
-Typography uses **Season Mix** (titling), **Season Serif** (editorial lines)
-and **Season Sans** (UI/body), declared in `src/styles/fonts.css`.
+Typography uses **Season Mix** throughout (Light → Heavy, with italics),
+declared in `src/styles/fonts.css`.
 
 The font files are **not in this repository**: the trial licence allows
 personal/internal use only, so `public/fonts/season/` is git-ignored. To see
-them locally, copy the WOFF2 files from the Season download into
+them locally, copy the Season Mix WOFF2 files from the Season download into
 `public/fonts/season/` (flat, e.g. `public/fonts/season/SeasonMix-TRIAL-Bold.woff2`).
 Without them the site falls back to Montserrat / Cormorant Garamond.
 
